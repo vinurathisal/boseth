@@ -60,13 +60,13 @@
 
         .logo {
             position: absolute;
-            top: 10px; /* Adjust based on desired vertical positioning from the top */
-            right: 10px; /* Adjust based on desired horizontal positioning from the right */
-            width: auto; /* Maintain aspect ratio */
-            height: 50px; /* Adjust height as needed */
-            object-fit: contain; /* Ensure the logo maintains its aspect ratio */
-            display: block; /* Ensures the image aligns correctly */
-	}
+            top: 50%;
+            transform: translateY(-50%);
+            left: 1px;
+            width: 100%;
+    	    height: 100%;
+	    object-fit: contain;
+        }
 
         section {
             max-width: 800px;
